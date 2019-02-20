@@ -1,5 +1,5 @@
 <?php
-$filename = "php7.png";
+$filename = "images/php7.png";
 $base64 = base64_encode(file_get_contents($filename));
 $fileinfo = new finfo(FILEINFO_MIME_TYPE);
 $mimetype = $fileinfo->file($filename);
